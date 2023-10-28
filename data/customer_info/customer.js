@@ -5,7 +5,6 @@ var mysql = require('mysql');
 var http = require("http");
 var bodyParser = require('body-parser');
 var multer = require('multer');
-var async = require('async');
 const fs = require('fs');
 /*const puppeteer = require('puppeteer');
 const findChrome = require('../puppeteer/find_chrome');
