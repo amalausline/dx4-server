@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "techfooddydb",
+  "private_key_id": "d8e654cccc3d816134faabe0b31a8851ba7dff84",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYzMdsS2dufJCX\nwjBQW/6Dq6FIj15e0vr3x8KX5hCgkJzcppV6YxTop0ot3qfZxFzzmTKfE5YaO6x6\npdFGyctZs7MhO6ZsKHj4mudeszIg03qlIGLU+x4AUGt4fAZbqLFEOAEST4fB82EH\n1J9+JErET0Vde9fxDSxpayQHp2B3TRWWp/AKq3eJHBhEO+rYJQFEcDZHmP0GAdxj\nl1ZFi/eNi1kugC2uOI1T8/FyE99JAuT+z+7+dfVuu/EI+iDUI52n8ZjwNUU9C6QV\n6zOUSVI878mH1HyCGg4OVXbvr81MS6K2RJTTvoE4CR2rwyfewsBTIs2DRfMhIDS2\n2EYloxn3AgMBAAECggEAEPI3/lhW7kh3U7cLaFfTtgtJRC7/5rQuhzkXYu2W5brk\n2ZlKotiyCDN9wiy4YxAmkdxeNbGZI7v/xRoT/yjQp9Zt88GO+Yvth/hkigvCXDvo\nYMlLLTAWmsCufd1eVw80qzGGrlDTVEI6/RrOGSHEffUr5cN2tovCKaVRzI71Pkd+\nQktWSj3faAkCMO5yQO/4VrcL6A46qg7MULrIZY+wreueHPh6X4ilFr54c4pTQadp\nQg1zUBbZhGW9/hfZoFpj1F3DRrnnFjuPPJSYt1d3JlU6+I1bLMkCM5/1bxjM5iQV\n8u7iuLkqmL4rfXIf6U+Pc0VJ9h5uZXgsDgkzo59ZjQKBgQD1jji1tJd13bVQEvCJ\noXDg8wX3AHhRfw8PLiV3vCdhx21iWLnVuNpTQJwjww1JSgqndSnX6l3njTB0SzyH\ncI4230FM6jP49618/ONhuVNXfEBjADWoALoPzvTe0WfUjBkedpLL1B1EDb5LFlY7\nmAs1I0JwZtLO4hiHrxLorGEqawKBgQDiBXI9+GteOGgI92Xqnz4Hm1d++WG/7VJD\nOaM/Nqg+CiV1ZNb7jTZL+gdC2zqEyT1ZLMhHYtMGekLpOimyOcoxzI/fN2Ujvt3M\nBNCGKc9pB5QqKFB4Vj+gObjnmoTW/IvYUYsXwvZiDideoQnjJ36uPfJxTNMa76Nw\nAxsH/M8JpQKBgAoC8mz2H/a+Q1Ywb34tBt0lC2k2q7Em7QZBa2WmVjS2XM9Vrr33\n+27Jg5Qxr6j9S9HoBPy4oXt/VipnpuAexq2WDKOGKPhNoNUnul2RoMRAXJ+ssoNX\nBD8AwRsUjpcr3xpO201UKJ1NsiR9lKZ5XHueJGdQyeeFcFqX2L2DybJhAoGAcnNT\nkDHVHJbvh2rPfuk4Hd35hmB9sRRZjZUIJyBkPVYh9bokaqjtD7gCKUad8VN970QP\n/qX6OdN7QmKjbo545pKxX9TLMDicU400kltlnceqrVZQuT7jZR0VlqHWFo83uUhB\naLzeynRkVzSwrwf2zACuXdULKR6j4jqQW5EWvckCgYEA7uSRf7wS5zNu0jHydyvH\nQ+9rgGHZY7lp+JskhVaulhVXC4wlwto/KeTw1KomkzH8PV/OWlwsI3iM60FsOlr/\nJQfJkFwwF5cvC+czCtHzEIYgOhMvbBtFLHghbYIk5bKtlW59fT/8zX3WUZ6QsLi8\nUQ38Vq50Y1QJZ6VAnBqh7nw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "techfooddydbdrive@techfooddydb.iam.gserviceaccount.com",
+  "client_id": "103857533741227485429",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/techfooddydbdrive%40techfooddydb.iam.gserviceaccount.com"
+}
