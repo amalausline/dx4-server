@@ -39,7 +39,7 @@ const fs = require('fs');
 
 
 var apiUrl = "/api"
-const port = 1100
+const port = 80
 
 /*==========================================================================
                           ANALYTICS
