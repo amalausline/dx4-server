@@ -2,10 +2,10 @@ var mysql = require('mysql')
 
 function DB() {
 	var db = mysql.createConnection({
-	  host: "127.0.0.1",
-	  user: "root",
-	  password: "",
-	  database : "r27bangalore",
+	  host: "82.180.142.99",
+	  user: "u548424989_tf_app_dm_us",
+	  password: "RdAf;&Zu3~l",
+	  database : "u548424989_tf_app_demo",
 	  dateStrings : true
 
 	}); 
