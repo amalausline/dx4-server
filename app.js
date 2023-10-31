@@ -22,8 +22,8 @@ var crypto = require('crypto');
 var allowCrossDomain = function (req, res, next) {
   res.header('Access-Control-Allow-Origin', "*");
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
-  // res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  //res.header('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Access-Control-Allow-Credentials', true);
   next();
 }
@@ -56,7 +56,7 @@ LIST
 - SMS ANALYTICS
 
  -----------------------------------------*/
-require('./data/analytics/analytics')(app);
+//require('./data/analytics/analytics')(app);
 
 /*==========================================================================
                           SETTINGS
@@ -85,7 +85,7 @@ LIST
 
 ---------------------------------
 */
-require('./data/settings/settings')(app);
+//require('./data/settings/settings')(app);
 
 
 /*==========================================================================
@@ -103,7 +103,7 @@ LIST
 - PAID ODC
 
  -----------------------------------------*/
-require('./data/salesbill/bill')(app);
+//require('./data/salesbill/bill')(app);
 
 /*
 // newbill in casier settings (get,add)
@@ -137,7 +137,7 @@ LIST
 
  -----------------------------------------*/
 
-require('./data/expensebill/expensebill')(app);
+//require('./data/expensebill/expensebill')(app);
 
 
 /*==========================================================================
@@ -153,7 +153,7 @@ LIST
 - STOCK SALE MATERIAL
  -----------------------------------------*/
 
-require('./data/inventory/inventory')(app);
+//require('./data/inventory/inventory')(app);
 
 /*==========================================================================
                     corporate_settings
@@ -174,7 +174,7 @@ LIST
 
  -----------------------------------------*/
 
-require('./data/customer_info/customer')(app);
+//require('./data/customer_info/customer')(app);
 
 
 
@@ -183,6 +183,7 @@ require('./data/customer_info/customer')(app);
   // Get Table NO
   app.get(apiUrl + '/getTableNo', function (req, res) {
     db.executeQuery('SELECT * FROM table_no', function (results) {
+      console.log(results);
       return res.status(200).send(results);
     });
   });
