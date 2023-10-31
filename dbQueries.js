@@ -1,8 +1,10 @@
 var mysql = require('mysql')
 
 function DB() {
-	var db = mysql.createConnection({
+	var db = mysql.createPool({
+		connectionLimit: 10,
 	  host: "82.180.142.99",
+	  port: 3306,
 	  user: "u548424989_tf_app_dm_us",
 	  password: "RdAf;&Zu3~l",
 	  database : "u548424989_tf_app_demo",
@@ -12,7 +14,7 @@ function DB() {
 
 
 
-	db.connect(function(err){
+	db.getConnection(function(err){
 	  if(err){
 		console.log('Error connecting to Db');
 		return;
